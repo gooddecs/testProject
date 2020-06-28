@@ -33,24 +33,44 @@ const personalMoviesDB = {
 //     }
 // console.log(personalMoviesDB);
 
-let i = 0;
-while (i < 2) {
-    const a = prompt('Один из последних фильмов?', ''),
-          b = prompt('На сколько оцените его', '');
-    personalMoviesDB.movies[a] = b;
-    i++;
- }
-    if (personalMoviesDB.count < 10) {
-        console.log("Просмотрено довольно мало фильмов");
-    } else if (personalMoviesDB.count >=10 && personalMoviesDB.count < 30) {
-        console.log("Вы класический зритель");
-    } else if (personalMoviesDB.count >= 30) {
-        console.log("Вы киноман");
-    } else {
-           console.log("Произошла ошибка");
-    }
+// let i = 0;    varianta a doua
+// while (i < 2) {
+//     const a = prompt('Один из последних фильмов?', ''),
+//           b = prompt('На сколько оцените его', '');
+//     personalMoviesDB.movies[a] = b;
+//     i++;
+//  }
+//     if (personalMoviesDB.count < 10) {
+//         console.log("Просмотрено довольно мало фильмов");
+//     } else if (personalMoviesDB.count >=10 && personalMoviesDB.count < 30) {
+//         console.log("Вы класический зритель");
+//     } else if (personalMoviesDB.count >= 30) {
+//         console.log("Вы киноман");
+//     } else {
+//            console.log("Произошла ошибка");
+//     }
+//
+// console.log(personalMoviesDB);
 
-console.log(personalMoviesDB);
-
-
+// let i = 0;   varianta a treia
+//
+// do {
+//     const a = prompt('Один из последних фильмов?', ''),
+//           b = prompt('На сколько оцените его', '');
+//     personalMoviesDB.movies[a] = b;
+//     i++;
+// }
+// while ( i < 2);
+//     if (personalMoviesDB.count < 10) {
+//         console.log("Просмотрено довольно мало фильмов");
+//     } else if (personalMoviesDB.count >=10 && personalMoviesDB.count < 30) {
+//         console.log("Вы класический зритель");
+//     } else if (personalMoviesDB.count >= 30) {
+//         console.log("Вы киноман");
+//     } else {
+//            console.log("Произошла ошибка");
+//     }
+//
+// console.log(personalMoviesDB);
+//
 
